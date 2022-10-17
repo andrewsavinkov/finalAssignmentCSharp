@@ -15,5 +15,5 @@ void ReturnIntegers(int n)
         ReturnIntegers(n - 1);
     }
 }
-
-ReturnIntegers(100);
+int integersNumber = 100;
+ReturnIntegers(integersNumber);
